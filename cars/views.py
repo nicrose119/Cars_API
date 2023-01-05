@@ -11,4 +11,3 @@ def cars_list(request):
     serializer = CarSerializer(cars, many=True)    
 
     return Response(serializer.data)
-    
